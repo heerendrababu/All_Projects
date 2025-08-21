@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.techtez.FinalArtemisApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.523 s <<< FAILURE! - in com.techtez.FinalArtemisApplicationTests
+contextLoads  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.techtez.config.JmsConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+Caused by: java.lang.NoClassDefFoundError: ConnectionFactory
+Caused by: java.lang.ClassNotFoundException: ConnectionFactory
+

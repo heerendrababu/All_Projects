@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: CrudOperationsInSpringBoot
+  datasource:
+    url: jdbc:mysql://localhost:3306/springBootDemo
+    username: root
+    password: Babu@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    format_sql: true
+  server:
+    port: 8082
+  profiles:
+    active: dev
