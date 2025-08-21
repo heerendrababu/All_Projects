@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+		<Appenders>
+				
+				<Console name="LoggingIntoConsole" target="SYSTEM_OUT">
+					<PatternLayout>
+						<pattern>%d-%c-[%M]-(%p)-%m-%n</pattern>
+						
+					</PatternLayout>
+				
+				</Console>
+				
+				<File name="logFile" fileName="Logs/loggigFile.log">
+					
+					<PatternLayout>
+						<pattern>%d-%c-[%M]-(%p)-%m-%n</pattern>
+						
+					</PatternLayout>
+				</File>
+		</Appenders>
+		
+		
+		<Loggers>
+		
+		
+			<Root  level="trace">
+				
+				<AppenderRef ref="LoggingIntoConsole"/>
+				
+				<AppenderRef ref="logFile"/>
+			</Root>
+		
+		</Loggers>
+ 
+ 
+</configuration>
+ 

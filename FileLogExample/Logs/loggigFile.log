@@ -1,0 +1,6 @@
+2025-01-02 11:00:38,157-com.log.example.LogExample-[main]-(TRACE)-This is a TRACE level log-
+2025-01-02 11:00:38,164-com.log.example.LogExample-[main]-(DEBUG)-This is a DEBUG level log-
+2025-01-02 11:00:38,165-com.log.example.LogExample-[main]-(INFO)-This is an INFO level log-
+2025-01-02 11:00:38,165-com.log.example.LogExample-[main]-(WARN)-This is a WARN level log-
+2025-01-02 11:00:38,166-com.log.example.LogExample-[main]-(ERROR)-This is an ERROR level log-
+2025-01-02 11:00:38,167-com.log.example.LogExample-[main]-(FATAL)-This is a FATAL level log-
